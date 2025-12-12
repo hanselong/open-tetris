@@ -30,9 +30,11 @@ The entire application, including the game logic, server setup, and Docker confi
 - Pause/Resume capability
 - Responsive canvas-based rendering
 - Clean, minimal UI
+- Mobile touch controls for on-the-go gameplay
 
 ## Game Controls
 
+### Desktop Controls
 | Key | Action |
 |-----|--------|
 | **Left Arrow** | Move piece left |
@@ -41,6 +43,12 @@ The entire application, including the game logic, server setup, and Docker confi
 | **Up Arrow** | Rotate piece clockwise |
 | **Spacebar** | Hard drop (instant placement) |
 | **P** | Pause/Resume game |
+
+### Mobile Controls
+On mobile devices, touch controls appear at the bottom of the screen:
+- **Directional Pad**: Move piece left/right/down
+- **Rotate Button**: Rotate piece clockwise
+- **Hard Drop Button**: Instantly drop piece
 
 ## Tech Stack
 
